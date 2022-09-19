@@ -100,6 +100,7 @@ class TestStartPage:
         self.log.info(driver.current_url)
         driver.close()
 
+    # Пробний тест)
     def test_new_post(self):
         driver = webdriver.Chrome()
         driver.get("https://qa-complex-app-for-testing.herokuapp.com/")
